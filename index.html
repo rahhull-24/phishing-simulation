@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ministry of Road Transport - eChallan Payment</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header img {
+      height: 50px;
+    }
+    .header .title {
+      flex-grow: 1;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 600px;
+      background: #ffffff;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #d32f2f;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .details {
+      margin: 20px 0;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    .qr-section {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .qr-section img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      background: #0056b3;
+      color: #fff;
+      border: none;
+      padding: 14px;
+      font-size: 16px;
+      border-radius: 6px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .footer {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #888;
+      text-align: center;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Government Header -->
+  <div class="header">
+    <img src="Emblem_of_India.jpg" alt="India Emblem">
+    <div class="title">Ministry of Road Transport & Highways<br/>Government of India</div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2>Traffic e-Challan Payment Portal</h2>
+
+    <div class="details">
+      <strong>Citizen Name:</strong> Kunal Garud <br/>
+      <strong>Challan Number:</strong> TN-238913<br/>
+      <strong>Vehicle Registration:</strong> MH12AB1234 <br/>
+      <strong>Violation:</strong> Red Light Jump<br/>
+      <strong>Date of Violation:</strong> 21 July 2025<br/>
+      <strong>Challan Amount:</strong> ₹1000 <br/>
+      <strong>Due Date:</strong> 26 July 2025
+    </div>
+
+    <div class="qr-section">
+      <img src="QR.jpg" alt="QR Code" />
+      <div>Scan this QR with UPI App (PhonePe, GPay, Paytm) to pay.</div>
+    </div>
+
+    <a href="#" class="btn">Proceed to UPI Payment</a>
+
+    <div class="footer">
+      ⚠️ This is a phishing simulation created for educational and cybersecurity training purposes only.<br/>
+      Do not enter any personal or financial data on simulated platforms.
+    </div>
+  </div>
+
+</body>
+</html>
